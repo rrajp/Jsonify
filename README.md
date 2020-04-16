@@ -21,4 +21,11 @@ Here is a snippet of how to use it.
 3. ast       ---- pip install ast
 4. clipboard ---- pip install clipboard
 
+Call the file with Python3
+```
+python jsonify.py
+```
+
+* Reference and courtesy https://github.com/ashwin/json-viewer
+
 Enjoy!!!
