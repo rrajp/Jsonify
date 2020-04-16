@@ -21,7 +21,7 @@ class TextToTreeItem:
 
         titem_list = []
         for i, s in enumerate(self.text_list):
-            if find_str in s:
+            if find_str.lower() in s.lower():
                 titem_list.append(self.titem_list[i])
 
         return titem_list
